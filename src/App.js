@@ -1,18 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function App() {
-  
-  const InteractiveButton = () => alert("That was easy");
-  
-  // function InteractiveButton() {
-  //   alert("That was easy");
-  // };
+
+const words = ["easy", "ok", "difficult", "too difficult"]
+
+let practice = 'easy'
+
+const click = (n) => <button onClick={() => alert(`That was ${n}`)}>{n}</button>
+
+
+
 
 
   return (
     <div className="App">
-      <button onClick={InteractiveButton}>EASY</button>
+      {words.map(click)}
     </div>
   );
 }

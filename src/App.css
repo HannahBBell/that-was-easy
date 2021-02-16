@@ -11,9 +11,9 @@ button {
   color: white;
   font-family: 'Yanone Kaffeesatz';
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2em;
   display: block;
-  padding: 4px;
+  padding: 10px;
   -webkit-border-radius: 300px;
   -moz-border-radius: 300px;
   border-radius: 300px;
@@ -30,3 +30,7 @@ button {
   transition: all .1s ease;
 }
 
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
