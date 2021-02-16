@@ -30,16 +30,12 @@
   transition: all .1s ease;
 }
 
-.easy:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
 
 .ok {
   height: 160px;
   width: 200px;  
-  background-color: yellow;
-  color: black;
+  background-color: red;
+  color: white;
   font-family: 'Yanone Kaffeesatz';
   font-weight: 700;
   font-size: 2em;
@@ -59,18 +55,13 @@
   -ms-transition: all .1s ease;
   -o-transition: all .1s ease;
   transition: all .1s ease;
-}
-
-.ok:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
 }
 
 
 .too-difficult {
   height: 160px;
   width: 200px;  
-  background-color: purple;
+  background-color: red;
   color: white;
   font-family: 'Yanone Kaffeesatz';
   font-weight: 700;
@@ -91,17 +82,12 @@
   -ms-transition: all .1s ease;
   -o-transition: all .1s ease;
   transition: all .1s ease;
-}
-
-.easy:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
 }
 
 .difficult {
   height: 160px;
   width: 200px;  
-  background-color: blue;
+  background-color: red;
   color: white;
   font-family: 'Yanone Kaffeesatz';
   font-weight: 700;
@@ -124,7 +110,3 @@
   transition: all .1s ease;
 }
 
-.difficult:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
