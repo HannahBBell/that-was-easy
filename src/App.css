@@ -4,7 +4,7 @@
 
 }
 
-button {
+.easy {
   height: 160px;
   width: 200px;  
   background-color: red;
@@ -30,7 +30,101 @@ button {
   transition: all .1s ease;
 }
 
-button:hover {
+.easy:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.ok {
+  height: 160px;
+  width: 200px;  
+  background-color: yellow;
+  color: black;
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 700;
+  font-size: 2em;
+  display: block;
+  padding: 10px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-radius: 300px;
+  -webkit-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  margin: 100px auto;
+  width: 160px;
+  text-align: center;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.ok:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+.too-difficult {
+  height: 160px;
+  width: 200px;  
+  background-color: purple;
+  color: white;
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 700;
+  font-size: 2em;
+  display: block;
+  padding: 10px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-radius: 300px;
+  -webkit-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  margin: 100px auto;
+  width: 160px;
+  text-align: center;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.easy:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.difficult {
+  height: 160px;
+  width: 200px;  
+  background-color: blue;
+  color: white;
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 700;
+  font-size: 2em;
+  display: block;
+  padding: 10px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  border-radius: 300px;
+  -webkit-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+  margin: 100px auto;
+  width: 160px;
+  text-align: center;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.difficult:hover {
   background-color: #4CAF50; /* Green */
   color: white;
 }

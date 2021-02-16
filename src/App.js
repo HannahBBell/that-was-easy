@@ -4,19 +4,20 @@ import React from 'react';
 
 function App() {
 
-const words = ["easy", "ok", "difficult", "too difficult"]
+  const words = ["easy", "ok", "difficult", "too-difficult"]
 
-let practice = 'easy'
+  
+  const handleClick = (word) => alert(`That was ${word}`)
 
-const click = (n) => <button onClick={() => alert(`That was ${n}`)}>{n}</button>
-
-
-
-
-
+  const Click = ({word, hello}) => {
+   return (<button className={word} onClick={() => handleClick(word)}>{word}{hello}</button>);
+  }
   return (
-    <div className="App">
-      {words.map(click)}
+    <div>
+      {words.map(word =>
+        <Click
+          word={word}
+          hello='hello'/>)}
     </div>
   );
 }
